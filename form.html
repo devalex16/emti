@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/form.css">
+  <title>Contatos</title>
+</head>
+<body class="flex-col">
+  <header class="flex-row">
+    <picture>
+      <source class="logo" media="(max-width: 900px)" srcset="assets/logo-p.png">
+      <img class="logo" src="assets/logo-g.png" alt="LOGO">
+    </picture>
+    <nav>
+      <ul class="flex-row">
+        <li><a href="index.html" target="_self">Inicio</a>
+        <li><a href="school.html" target="_self">Escola</a>
+        <li><a href="form.html" target="_self">Contatos</a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Fale Conosco</legend>
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name">
+          <label for="email">E-Mail:</label>
+          <input type="email" name="email" id="email">
+          <label for="message">Mensagem:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="button">Enviar</button>
+          <button type="reset">Cancelar</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>TODOS OS DIREITOS RESERVADOS</p>
+  </footer>
+</body>
+</html>
