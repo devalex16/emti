@@ -94,6 +94,7 @@ article > img{
 article > div {
   margin-top: 10px;
   font-size: var(--text-base);
+  margin: 0 20px;
 }
 
 #video-bg {
